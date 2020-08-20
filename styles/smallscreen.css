@@ -31,3 +31,10 @@
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Segunda Coluna do Div Principal (foto) */
+#div_main_col_2{
+    height: 600px;
+    background-position: top center!important;
+    width: 100%;
+}
