@@ -1,17 +1,17 @@
 /* Nav Principal */
-nav{
+#nav_main{
     background-color: #ffdb99;
 
 }
 
 /* Itens da Nav */
-nav li{
+#nav_main li{
     height: 100px;
     padding: 5% 0 0 0;
 }
 
 /* Links dos Itens da Nav */
-nav li a{
+#nav_main li a{
 
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -21,7 +21,7 @@ nav li a{
 }
 
 /* Links dos Itens da Nav : Mouse em Cima*/
-nav li a:hover{
+#nav_main li a:hover{
 
     color: #ffb5e8 !important;
 }

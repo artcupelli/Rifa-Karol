@@ -1,4 +1,29 @@
-/* Itens da Nav */
-nav li{
-    padding: 0 0 0 0;
+/* Nav Principal */
+#nav_main{
+    display: none;
+}
+
+/* Div com Dropdown de Menu para Smallscreen*/
+#nav_smallscreen{
+
+    display: block!important;
+}
+
+/* Botão do Dropdown */
+#nav_smallscreen button {
+
+    width: 100%!important;
+    height: 85px;
+    background-color: #ffdb99;
+    background-image: url(../media/logo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 30%;
+    text-align: right;
+}
+
+#nav_smallscreen div{
+
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
