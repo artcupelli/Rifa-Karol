@@ -25,10 +25,10 @@
     border: none;
 }
 
+
 /* Div com os Itens da Nav Dropdown*/
 #nav_smallscreen div{
 
-    width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -36,5 +36,4 @@
 #div_main_col_2{
     height: 600px;
     background-position: top center!important;
-    width: 100%;
 }
