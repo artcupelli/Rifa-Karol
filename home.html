@@ -1,18 +1,19 @@
 <html>
-    <head>
-        <title>Rifa da Karol</title>
 
-        <meta charset="UTF-8">
-        <meta author="Artur Cupelli">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title>Rifa da Karol</title>
 
-        <link rel="stylesheet" media="screen and (max-width: 800px)" href="styles/smallscreen.css">
-        <link rel="stylesheet" href="styles/main.css">
+    <meta charset="UTF-8">
+    <meta author="Artur Cupelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="styles/smallscreen.css">
+    <link rel="stylesheet" href="styles/main.css">
 
-    <body>
-        
+</head>
+
+<body>
+
     <!-- NavBar Principal -->
     <nav class="navbar navbar-expand-sm justify-content-center" id="nav_main">
         <ul class="navbar-nav">
@@ -40,23 +41,45 @@
         </ul>
     </nav>
 
+    <!-- NavBar SmallScreen  -->
+    <nav class="dropdown" id="nav_smallscreen" style="display: none; background-color: aquamarine">
+        <button type="button" class="btn btn-primary dropdown toogle" data-toggle="dropdown">
+            ♒
+        </button>
 
-        <nav class="dropdown" id="nav_smallscreen"style="display: none; background-color: aquamarine">
-            <button type="button" class="btn btn-primary dropdown toogle" data-toggle="dropdown">
-                ♒
-            </button>
-    
-            <div class="dropdown-menu">
-                <a class="dropdown-item">Como Participar</a>
-                <a class="dropdown-item">Conheça Mais</a>
-                <a class="dropdown-item">Ver Rifas</a>
-            </div>
-        
-        </nav>
+        <div class="dropdown-menu">
+            <a class="dropdown-item">Como Participar</a>
+            <a class="dropdown-item">Conheça Mais</a>
+            <a class="dropdown-item">Ver Rifas</a>
+        </div>
+
+    </nav>
+
+    <!-- Div Principal (Início da Página) -->
+    <div class="d-flex justify-content-center" id="div_main">
+    <div class="row d-flex justify-content-center"  id="div_row_main">
+        <div class="col-sm-6" id="div_main_col_1">
+            <h1>Bem Vind<span style="color: #ffb5e8;">x</span>s!</h1>
+            <br>
+            <p>
+                Você quer fotos exclusivas da minha gatinha na Torre Eiffel? Talvez não, mas
+                que tal um box de Harry Potter em inglês?!?! 
+            </p>
+            <p>
+                Participe da minha rifa! Ganhei uma bolsa de estágio na França e preciso arcar
+                com os custos da viagem. Você pode me ajudar com $5 comprando a rifa e tendo a chance de levar essa coleção para casa!
+            </p>
+            <br>
+            <button id="btn_saiba_mais">Saiba Mais</button>
+        </div>
+        <div class="col-sm-3" id="div_col_main_2">
+
+        </div>
+    </div>
+    </div>
 
 
-    
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -64,9 +87,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-       
-    <!-- Fontes -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
-    </body>
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+</body>
+
 </html>

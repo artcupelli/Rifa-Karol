@@ -3,7 +3,9 @@
     display: none;
 }
 
-/* Div com Dropdown de Menu para Smallscreen*/
+/* */
+
+/* Div com Dropdown de Menu para Smallscreen */
 #nav_smallscreen{
 
     display: block!important;
@@ -12,16 +14,18 @@
 /* Botão do Dropdown */
 #nav_smallscreen button {
 
+    height: 80px;
     width: 100%!important;
-    height: 85px;
     background-color: #ffdb99;
     background-image: url(../media/logo.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 225px;
     text-align: right;
+    border: none;
 }
 
+/* Div com os Itens da Nav Dropdown*/
 #nav_smallscreen div{
 
     width: 100%;

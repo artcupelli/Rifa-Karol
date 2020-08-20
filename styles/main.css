@@ -15,7 +15,7 @@
 
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: #f85d57 !important;
+    color: #f85d57;
     font-weight: bold;
     text-shadow: #ffefbd -3px 2px 1px;
 }
@@ -26,27 +26,6 @@
     color: #ffb5e8 !important;
 }
 
-/* Botão da Nav para Ver Rifas */
-#a_nav_rifas{
-
-    background-color:#f85d57 !important;
-    color: white !important;
-    text-shadow: none;
-    border: solid white 1px;
-    border-radius: 12px;
-}
-
-/* Botão da Nav para Ver Rifas : Mouse em Cima */
-#a_nav_rifas:hover{
-
-    background-color:#ffffff !important;
-    color: #f85d57 !important;
-    text-shadow: none;
-    border: solid white 1px;
-    border-radius: 12px;
-}
-
-
 /* Item Com Logo na Nav */
 #li_nav_logo{
 
@@ -56,4 +35,63 @@
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/* Div Principal (Inicial) */
+#div_main{
+    margin: 30px 0 0 0;
+}
+
+/* Primeira Coluna do Div Principal (Texto)*/
+#div_main_col_1{
+
+    background-color: #ffefbd;
+    padding: 40px 80px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+/* Título da 1ª Coluna do Div Principal*/
+#div_main_col_1 h1{
+
+    font-family: 'Open Sans', sans-serif!important;
+    color:#27bec6 ;
+    text-shadow: #f85d57 -4px 4px 0px;
+} 
+
+/* Botão 'Saiba Mais' da 1ª Coluna do Div Principal */
+#btn_saiba_mais{
+
+    background-color: #ffdb99;
+    border: none;
+    padding: 6px 12px;
+    color: #f85d57;
+    box-shadow: #f85d57 -4px 4px 0px;
+}
+
+/* Botão 'Saiba Mais' da 1ª Coluna do Div Principal : Mouse em Cima*/
+#btn_saiba_mais:hover{
+
+    background-color: #f85d57 ;
+    color:  #ffefbd;
+    box-shadow: #ffdb99 -4px 4px 0px;
+}
+
+/* Segunda Coluna do Div Principal (foto) */
+#div_main_col_2{
+    background-image: url('../media/karol.png');
+    background-position: top center;
+
+}
+
+
+@font-face{
+
+    font-family: Nickainley;
+    src: url('fonts/Nickainley-Normal.eot');
+    src: url('fonts/Nickainley-Normal.eot?#iefix') format('embedded-opentype'),    
+         url('fonts/Nickainley-Normale.woff2') format('woff2'),
+         url('fonts/Nickainley-Normal.woff') format('woff'),
+         url('fonts/Nickainley-Normal.ttf') format('truetype');
+
 }
