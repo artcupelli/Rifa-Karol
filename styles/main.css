@@ -1,0 +1,59 @@
+/* Nav Principal */
+nav{
+    background-color: #ffdb99;
+
+}
+
+/* Itens da Nav */
+nav li{
+    height: 100px;
+    padding: 5% 0 0 0;
+}
+
+/* Links dos Itens da Nav */
+nav li a{
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #f85d57 !important;
+    font-weight: bold;
+    text-shadow: #ffefbd -3px 2px 1px;
+}
+
+/* Links dos Itens da Nav : Mouse em Cima*/
+nav li a:hover{
+
+    color: #ffb5e8 !important;
+}
+
+/* Botão da Nav para Ver Rifas */
+#a_nav_rifas{
+
+    background-color:#f85d57 !important;
+    color: white !important;
+    text-shadow: none;
+    border: solid white 1px;
+    border-radius: 12px;
+}
+
+/* Botão da Nav para Ver Rifas : Mouse em Cima */
+#a_nav_rifas:hover{
+
+    background-color:#ffffff !important;
+    color: #f85d57 !important;
+    text-shadow: none;
+    border: solid white 1px;
+    border-radius: 12px;
+}
+
+
+/* Item Com Logo na Nav */
+#li_nav_logo{
+
+    background-image: url(../media/logo.png);
+    width:300px;
+    height: 100px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
