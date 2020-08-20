@@ -29,6 +29,7 @@
 /* Div com os Itens da Nav Dropdown*/
 #nav_smallscreen div{
 
+    width:100%;
     font-family: 'Poppins', sans-serif;
 }
 
