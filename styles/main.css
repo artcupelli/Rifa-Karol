@@ -79,8 +79,11 @@
 
 /* Segunda Coluna do Div Principal (foto) */
 #div_main_col_2{
-    background-image: url('../media/karol.png');
-    background-position: top center;
+
+    background-image: url(../media/karol.png);
+    background-position: center -50px;
+    background-size: 95%;
+    background-repeat: no-repeat;
 
 }
 
