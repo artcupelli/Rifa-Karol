@@ -35,7 +35,17 @@
 
 /* Segunda Coluna do Div Principal (foto) */
 #div_main_col_2{
-    margin: 20px 0 0 0;
+    margin: 40px 0 0 0;
     height: 600px;
     background-position: top center!important;
+}
+
+
+/* Div 'Como Participar' */
+#div_como_participar{
+
+    margin: -100px 0 0 0!important;
+    background-color: #ffdb99;
+    padding: 50px 10%!important;
+
 }

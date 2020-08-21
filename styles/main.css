@@ -58,13 +58,23 @@
     box-shadow: #f85d57 -10px 10px 0px;
 }
 
-/* Título da 1ª Coluna do Div Principal*/
-#div_main_col_1 h1{
+/* Títulos Principais*/
+.titulo_main{
 
     font-family: 'Open Sans', sans-serif!important;
     color:#27bec6 ;
     text-shadow: #f85d57 -4px 4px 0px;
+    text-align: center;
 } 
+
+/* Títulos Secundários */
+.titulo_2{
+
+    font-family: 'Nickainley';
+    color:#f85d57  ;
+    text-shadow: #27bec6 -1px 1px 0px;
+    text-align: center;
+}
 
 /* Botão 'Saiba Mais' da 1ª Coluna do Div Principal */
 #btn_saiba_mais{
@@ -94,6 +104,20 @@
 
 }
 
+/* Div 'Como Participar' */
+#div_como_participar{
+
+    margin: 5% 0 0 0;
+    background-color: #ffdb99;
+    padding: 2% 15%;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* Título do Div 'Como Participar'*/
 
 @font-face{
 
