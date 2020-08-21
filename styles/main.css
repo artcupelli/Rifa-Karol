@@ -159,6 +159,12 @@ p{
 
 }
 
+#div_num_1,
+#div_num_65,
+#div_num_20,
+#div_num_14{
+    visibility: hidden;
+}
 
 @font-face{
 
