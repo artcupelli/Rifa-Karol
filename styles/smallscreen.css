@@ -53,5 +53,6 @@
 
 #div_num_disp div div{
 
-    margin: 5px;
+    padding: 12px 4px!important;
+    margin: 3px;
 }
