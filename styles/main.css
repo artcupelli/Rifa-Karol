@@ -149,10 +149,11 @@ p{
     font-family: 'Open Sans', sans-serif!important;
     text-align: center;
     background-image: url(../media/postit.jpg);
-    background-size: 60px;
+    background-size: 65px;
     background-repeat: no-repeat;
     background-position:center center ;
     padding: 20px 25px;
+
 }
 
 
