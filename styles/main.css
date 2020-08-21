@@ -127,7 +127,7 @@ p{
     text-align: center;
     
 }
-
+/* Div 'Saiba Mais' Nome Karoline */
 #div_saiba_mais span{
 
     font-size: 130%;
@@ -136,8 +136,25 @@ p{
     text-shadow: #27bec6 -1px 1px 0px;
 }
 
+/* Div dos 'Números Dispoíveis' */
+#div_num_disp{
 
-/* Título do Div 'Como Participar'*/
+    padding: 2% 15%;
+
+    background-size: 100%;
+}
+
+#div_num_disp div div{
+
+    font-family: 'Open Sans', sans-serif!important;
+    text-align: center;
+    background-image: url(../media/postit.jpg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    padding: 20px 25px;
+}
+
 
 @font-face{
 
