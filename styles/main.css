@@ -54,6 +54,8 @@
     padding: 3% 5%;
     text-align: center;
     font-family: 'Poppins';
+    font-size: 90%;
+    box-shadow: #f85d57 -10px 10px 0px;
 }
 
 /* Título da 1ª Coluna do Div Principal*/
@@ -86,7 +88,7 @@
 #div_main_col_2{
 
     background-image: url(../media/karol.png);
-    background-position: right top;
+    background-position: right center;
     background-size: 350px;
     background-repeat: no-repeat;
 
