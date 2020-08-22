@@ -179,7 +179,12 @@ p{
     background-image: url(../media/livro2.jpeg);
 }
 
-#div_num_2{
+#div_num_2,
+#div_num_64,
+#div_num_37,
+#div_num_132,
+#div_num_179
+{
     visibility: hidden;
 }
 
