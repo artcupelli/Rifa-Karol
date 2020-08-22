@@ -159,10 +159,27 @@ p{
 
 }
 
-#div_num_1,
-#div_num_65,
-#div_num_20,
-#div_num_14{
+#div_como_participar div div div{
+
+    height: 320px;
+    background-size: 320px;
+    background-position: center -50px;
+    background-repeat: no-repeat;
+    margin: 5% 5%;
+}
+
+#div_premio_foto1{
+    
+    background-image: url(../media/livro1.jpeg);
+}
+
+#div_premio_foto2{
+
+    
+    background-image: url(../media/livro2.jpeg);
+}
+
+#div_num{
     visibility: hidden;
 }
 
