@@ -180,10 +180,16 @@ p{
 }
 
 #div_num_2,
+#div_num_3,
+#div_num_4,
+#div_num_7,
+#div_num_9,
+#div_num_12,
 #div_num_64,
 #div_num_37,
 #div_num_132,
-#div_num_179
+#div_num_179,
+
 {
     visibility: hidden;
 }
