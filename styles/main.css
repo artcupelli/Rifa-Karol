@@ -178,22 +178,40 @@ p{
     
     background-image: url(../media/livro2.jpeg);
 }
-
+#div_num_1,
 #div_num_2,
 #div_num_3,
 #div_num_4,
 #div_num_7,
 #div_num_9,
 #div_num_12,
+#div_num_15,
+#div_num_17,
+#div_num_18,
+#div_num_21,
+#div_num_22,
 #div_num_24,
+#div_num_26,
+#div_num_31,
+#div_num_40,
+#div_num_47,
 #div_num_52,
 #div_num_62,
+#div_num_63,
 #div_num_64,
+#div_num_69,
 #div_num_78,
 #div_num_37,
+#div_num_84,
+#div_num_89,
+#div_num_99,
+#div_num_130,
 #div_num_132,
 #div_num_157,
-#div_num_179
+#div_num_179,
+#div_num_217,
+#div_num_249,
+#div_num_250
 {
     visibility: hidden;
 }
