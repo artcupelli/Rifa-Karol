@@ -178,6 +178,33 @@ p{
     
     background-image: url(../media/livro2.jpeg);
 }
+
+#div_nome_ganhador{
+
+    padding-top: 5%;
+    margin-bottom: 100px;
+}
+
+#div_trofeu{
+    background-image: url(../media/trofeu.png);
+    height: 300px;
+    background-size: 100%;
+    padding: 6% 0;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+#h1_num_ganhador, #h1_nome_ganhador{
+    font-size: 320%;
+    font-family: 'Open Sans', sans-serif!important;
+    color:#27bec6 ;
+    text-shadow: #f85d57 -4px 4px 0px;
+}
+
+#div_nome_ganhador h2{
+    text-align: left;
+}
+
 #div_num_1,
 #div_num_2,
 #div_num_3,

@@ -56,3 +56,16 @@
     padding: 12px 4px!important;
     margin: 3px;
 }
+
+
+
+#div_trofeu{
+    background-size: contain!important;
+    background-position: top center;
+    padding-top: 15%!important;
+
+}
+
+#div_nome_ganhador h2, #div_nome_ganhador h1{
+    text-align: center!important;
+}

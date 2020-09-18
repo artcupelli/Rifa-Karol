@@ -14,6 +14,13 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
+    <script>
+
+        window.onload = function(){
+            $('#h1_num_ganhador').text("17");
+            $('#h1_nome_ganhador').text("@nicole_tmt");
+        }
+    </script>
 </head>
 
 <body>
@@ -193,6 +200,79 @@
             Também estou vendendo meus livros para bancar a viagem! Me segue lá no Instagram! <a
                 href="https://www.instagram.com/bibliotecadaintercambista/">Biblioteca da Intercâmbista</a>
         </p>
+    </div>
+
+    <!-- Div para Realizar o Sorteio -->
+    <div class="container justify-content-center" id="div_sorteio">
+        <script>
+            
+            var indiceSorteado;
+            // Função que sorteia e retorna um indice aleatório do array
+            function sortear(){
+                var h1Num = '#h1_num_ganhador';
+                var h1Nome = '#h1_nome_ganhador';
+
+                $(h1Num).text(numerosSorteio[14][0]);
+                $(h1Nome).text(numerosSorteio[14][1]);
+
+                /*
+                indiceSorteado = Math.floor(Math.random()*(numerosSorteio.length));
+               
+                $(h1Num).text(".");
+                setTimeout(function(){ $(h1Num).text("..");}, 500);
+                setTimeout(function(){ $(h1Num).text("...");}, 1000);
+                setTimeout(function(){ $(h1Num).text(".");}, 1500);
+                setTimeout(function(){ $(h1Num).text("..");}, 2000);
+                setTimeout(function(){ $(h1Num).text("...");}, 2500);
+                setTimeout(function(){ $(h1Num).text(".");}, 3000);
+                setTimeout(function(){ $(h1Num).text("..");}, 3500);
+                setTimeout(function(){ $(h1Num).text("...");}, 4000);
+
+                $(h1Nome).text(".");
+                setTimeout(function(){ $(h1Nome).text("..");}, 500);
+                setTimeout(function(){ $(h1Nome).text("...");}, 1000);
+                setTimeout(function(){ $(h1Nome).text(".");}, 1500);
+                setTimeout(function(){ $(h1Nome).text("..");}, 2000);
+                setTimeout(function(){ $(h1Nome).text("...");}, 2500);
+                setTimeout(function(){ $(h1Nome).text(".");}, 3000);
+                setTimeout(function(){ $(h1Nome).text("..");}, 3500);
+                setTimeout(function(){ $(h1Nome).text("...");}, 4000);*/
+
+                
+         
+                
+            }
+        </script>
+
+        <br>
+        <h1 class="titulo_main">🌟 Sorteio 🌟</h1>
+
+        <br>
+        <h2 class="titulo_2"> Vocês estão preparados?? </h2> 
+        <br>
+
+        <!-- Div com o nome do ganhador!! -->
+        <div class="container">
+        <div class="row justify-content-md-center" id="div_ganhador">
+            <div class="col-lg-3" id="div_trofeu"> 
+                    <h1 id='h1_num_ganhador'>
+                        ?
+                    </h1>
+                
+            </div>
+            <div class="col-lg-5" id="div_nome_ganhador">
+                    <h2 class="titulo_2">Parabéns,</h2>
+                    <h1 id='h1_nome_ganhador'>
+                        ???
+                    </h1>
+                    
+                    <h2 class="titulo_2">You're a winner baby!</h2>
+            </div>
+        </div>
+        </div>
+
+
+
     </div>
 
 
